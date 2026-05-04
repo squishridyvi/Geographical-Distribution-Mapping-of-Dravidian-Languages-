@@ -13,3 +13,6 @@ This project is about mapping the geographical distribution of Dravidian Languag
 - Cleaning data and restructuring using CSV files taken from census tables
 - visualization using Matplotlib and GeoPandas
 
+### Plans: 
+- Utilizing the Linguistic Survey of India
+- Predicting the geographical spread of different words (lexical diffusion) 
