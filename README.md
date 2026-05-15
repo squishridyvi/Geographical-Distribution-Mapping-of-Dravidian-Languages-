@@ -1,7 +1,7 @@
 This project is about mapping the geographical distribution of Dravidian Languages across India. Work in progress. 
 
 ### Current Focus/Interest
--  Kerala (Kasaragod district) for Malayalam and Tulu populations
+-  Kerala (upper and lower district halves) for all identified language populations
 -  Uses Census data, PSLI, and GADM shapefiles. Work in progress. 
 
 ### Sources: 
