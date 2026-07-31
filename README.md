@@ -7,6 +7,7 @@ This project is about mapping the geographical distribution of Dravidian Languag
 ### Sources: 
 - Census of India (2011, 2001)
 - People's Linguistic Survey of India (PSLI 2001)
+- Census of India 2011 language tables
 - GADM shapefiles (for administrative boundaries)
 - Soon: Linguistic Survey of India (LSI) 
 
