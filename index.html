@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Writers Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter&family=Lora&display=swap">
+</head>
+<body>
+
+    <!-- Modal --> 
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-box">
+            <button class="close-button" id="close-button">&times;</button>
+            <h1 id="modal-title">Coming Soon...</h1>
+        </div>
+    </div>
+
+    <nav>
+        <div class="logo-container">
+            <a href="#"><img src="logo1.png" alt="logo" width="30px"></a>
+            <h1 class="logo">Creative Writers</h1>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul id="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#monthlyshowcase">Monthly Showcase</a></li>
+            <li><a href="#current-officers">Current Officers</a></li>
+            <li><a href="#past-officers">Past Officers</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#calendar">Calendar</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="home-text">
+            <h1>Welcome to Creative Writers at UT!</h1>
+            <p>We are open to creative writers of all experience levels and writing mediums.</p>
+            <p>We have been operating as a club since the 2024-2025 school year and focus on writing, brainstorming and sharing ideas. We are always looking for ways to expand the community and help writers improve their skills!</p>
+            <p>We also plan to publish submitted writer pieces in a monthly showcase! Check it out below!</p>
+        </div>
+        <div class="home-image">
+            <img src="logo2.png" alt="">
+        </div>
+    </section>
+
+    <section id="monthlyshowcase">
+        <h2>Monthly Showcase (Coming Soon...)</h2>
+        <div class="monthly-container">
+            <img src="rectangle2.png" alt="New Creative Piece" data-title="Piece One">
+            <img src="rectangle2.png" alt="New Creative Piece" data-title="Piece Two">
+            <img src="rectangle2.png" alt="New Creative Piece" data-title="Piece Three">
+            <img src="rectangle2.png" alt="New Creative Piece" data-title="Piece Four">
+            <img src="rectangle2.png" alt="New Creative Piece" data-title="Piece Five"> 
+        </div>
+    </section>
+
+    <section id="current-officers">
+        <h2>Current Officers</h2>
+        <h3>We try to run stuff behind the scenes!</h3>
+
+        <div class="officers-grid"> 
+
+            <div class="officer"> 
+                <div class="letter">PH</div>
+                <div class="info">
+                    <h4>Peyton Hays</h4>
+                    <p>President</p>
+                </div>
+            </div>
+            
+            <div class="officer">
+                <div class="letter">NK</div>
+                <div class="info">
+                    <h4>Nameer Khan</h4>
+                    <p>Vice President</p>
+                </div>
+            </div>
+
+            <div class="officer">
+                <div class="letter">AF</div>
+                <div class="info">
+                    <h4>Aiden Fish</h4>
+                    <p>Resource Coordinator</p>
+                </div>
+            </div>
+
+            <div class="officer">
+                <div class="letter">SM</div>
+                <div class="info">
+                    <h4>Sophia Mills</h4>
+                    <p>Social Media Coordinator</p>
+                </div>
+            </div>
+
+            <div class="officer">
+                <div class="letter">SB</div>
+                <div class="info">
+                    <h4>Sophia Bostic</h4>
+                    <p>Event Coordinator</p>
+                </div>
+            </div>
+
+
+            <div class="officer">
+                <div class="letter">SH</div>
+                <div class="info">
+                    <h4>(Sridevi/someone else?)</h4>
+                    <p>Marketing Coordinator</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="past-officers">
+        <h2>Past Officers</h2>
+        <!-- for 2025-2026 -->
+        <div class="year-group">
+            <div class="twenty-five-to-six">
+                <h3>2025-2026</h3>
+                <p>Sophia Mills - President</p>
+                <p>Peyton Hays - Vice President</p>
+            </div>
+           
+            <div class="divider"></div>
+        
+            <!-- for 2026-2027 -->
+            <div class="twenty-six-to-seven">
+                <h3>2026-2027</h3>
+                <p>Sophia Mills - President</p>
+                <p>Peyton Hays - Vice President</p>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- for 2024-2025 -->
+            <div class="twenty-four-to-25">
+                <h3>2024-2025</h3>
+                <p>Sophia Mills - President</p>
+                <p>Peyton Hays - Vice President</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="events">
+            <h2>Upcoming Events</h2>
+        <div class="event-row">
+            <p class="date">3/26</p>
+            <p>Officer Elections + Field Trip</p>
+            <span>Elections</span>
+        </div>
+        <div class="event-row">
+            <p class="date">4/2</p>
+            <p>Harry Ransom Center Trip</p>
+            <span>Trip</span>
+        </div>
+        <div class="event-row">
+            <p class="date">4/9</p>
+            <p>Write-In @ Mccombs Atrium</p>
+            <span>Writing</span>
+        </div>
+        
+        <div class="event-row"> 
+            <p class="date">4/16</p>
+            <p>Peer Review</p>
+            <span>Writing</span>
+        </div>
+        <div class="event-row"> 
+            <p class="date">4/23</p>
+            <p>Movie Night (writing related)</p>
+            <span>Social</span>
+        </div>
+
+    </section>
+
+    <section id="calendar">
+        <h2>Calendar</h2>
+        <div class="calendar-container"> 
+            <iframe src="https://calendar.google.com/calendar/embed?src=905dd7d5d77d20b4ab5103ae950027be199d23fe4b44c579e255c803519e3f6b%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="calendar-container-2">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&showPrint=0&mode=AGENDA&src=OTA1ZGQ3ZDVkNzdkMjBiNGFiNTEwM2FlOTUwMDI3YmUxOTlkMjNmZTRiNDRjNTc5ZTI1NWM4MDM1MTllM2Y2YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233f51b5" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </section>
+    
+    <section id="contacts">
+
+        <!-- <div class="contact-container"> --> 
+            <h2>Contact Us</h2>
+
+            <div class="contact-layout">
+                
+            <!-- LEFT -->
+             <div class="contact-left">
+                <!-- INFO -->
+                <div class="contact-info">
+                    <p>Do you have a question, suggestion or concern you forgot to inform us about in person? Write us a message here, and we'll definitely get back to you!</p>
+                </div>
+
+
+                <!-- FORM -->
+                <div class="contact-form">
+                    <h3>Send your request</h3>
+                    <form action="https://formspree.io" id="contact-form-element">
+                        <div class="input-row">
+                            <div class="input-group">
+                            <label>Name</label>
+                                <input type="text" placeholder="John Williams">
+                            </div>
+
+                            <div class="input-group">
+                            <label>Email</label>
+                                <input type="text" placeholder="hello@gmail.com">
+                            </div>
+
+                        <div class="input-group">
+                        <label>Message Box</label>
+                        <textarea rows="10" cols="33" placeholder="I would like to ask about..."></textarea>
+                        </div>
+
+
+                        <button type="submit" class="button" id="submit-button">Submit</button>
+                        </div>
+                    </form>
+                    <div class="form-confirmation" id="form-confirmation">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <p>Your message has been sent successfully!</p>
+                    </div>
+                </div>
+
+                     <!-- SOCIALS -->    
+                <div class="Stay-updated">
+                    <h3>Stay Updated!</h3>
+                        <div class="contact-links">
+
+                        <a href="https://www.instagram.com/creativewritersatut/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://web.groupme.com/chats/group/103681472">
+                            <img src="groupme.png" alt="GroupMe">
+                        </a>
+                        </div>
+                </div>
+                </div>
+
+            <!-- RIGHT -->
+            <div class="contact-right">
+
+                <!-- MAP -->
+                <div class="contact-center"> 
+                    <!-- map -->
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13781.417622920624!2d-97.74223321035565!3d30.28397077478844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59a91b6ed65%3A0x1127f4ad837647e0!2sUniversity%20of%20Texas%20at%20Austin%2C%20Austin%2C%20TX!5e0!3m2!1sen!2sus!4v1775102563241!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6890.670981724803!2d-97.74274738959967!3d30.284509407052774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b59da0f084e5%3A0x1ee561d8aca641f4!2sCalhoun%20Hall%20(CAL)!5e0!3m2!1sen!2sus!4v1779554458419!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                    <p>Calhoun Hall 200 @ UT</p>
+                    <p>Thursdays at 6-7:00 pm</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="contact-footer">
+                <p>© 2024-2026 Creative Writers at UT. All rights reserved.</p>
+            </div>
+        </div>       
+        </div>
+  
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+ 
