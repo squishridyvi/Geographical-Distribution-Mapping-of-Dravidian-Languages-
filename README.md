@@ -14,6 +14,7 @@ This project is about mapping the geographical distribution of Dravidian Languag
 ### Methods: 
 - Cleaning data and restructuring using CSV files taken from census tables
 - visualization using Matplotlib and GeoPandas
+- Interactivity through Plotly
 
 ### Plans: 
 - Utilizing the Linguistic Survey of India
